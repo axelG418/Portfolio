@@ -1,0 +1,68 @@
+h1
+{
+	text-align: center;
+	font-size: 48px;
+ 	text-shadow: -2px 0 4px #000;
+	font-family:"Segoe print", Arial, Helvetica, sans-serif;
+	color: #666699;
+	padding:30px 0 0 0;
+	margin:16px auto;
+	font-weight:lighter;
+	-moz-box-shadow:none;  
+	-webkit-box-shadow: none;  
+	box-shadow:none;  
+	text-align:center;
+	display:block;
+}
+h3
+{
+	font-size: 20px;
+ 	text-shadow: -1px 0 2px #000;
+	font-family:"Segoe print", Arial, Helvetica, sans-serif;
+	color: #666699;
+	padding:30px 0 0 0;
+	margin:16px auto;
+	font-weight:lighter;
+	-moz-box-shadow:none;  
+	-webkit-box-shadow: none;  
+	box-shadow:none;  
+	display:block;
+}
+img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li
+{
+ list-style-type: none;
+}
+p
+{
+	font-family:"Segoe print", Arial, Helvetica, sans-serif;
+	color: #666699;
+}
+input
+{
+	display: block;
+
+	margin-left:auto;
+	font-size: 20px;
+	background-color: #666699;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+hr
+{
+	margin:0px;
+	border-color: #666699;
+}
+body
+{
+	margin-top: 0px
+}
