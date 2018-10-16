@@ -1,18 +1,22 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-        <link rel="stylesheet" href="css.css" />
+        <link rel="stylesheet" href="../style/css/css.css" />
 		<title>Portfolio</title>
 	</head>
 	<body>
-		<script type="text/javascript" src="script.js"></script>
-		<input type="button" id="mode" value="Mode nuit" onclick="changeBackground()" />
-		<hr/>
-		<h1>Portfolio Sylvain Lasarte<h1>
-		<h3>Bonjour et bienvenue sur le portfolio de Sylvain Lasarte. </h3>
+		<script type="text/javascript" src="../script/script.js"></script>
+		<div>
 
-		<image src=fond.png height="352" width="470"  alt="photo"></image>
-
+			<input type="button" id="mode" value="Mode nuit" onclick="changeBackground()" class="floatRight"/>
+			<p id="heure" class="heure"> </p>
+			<hr/>
+		</div>
+		<div><h1>Portfolio Sylvain Lasarte<h1></div>
+		<h3 id="intro" >Bonjour et bienvenue sur le portfolio de Sylvain Lasarte. </h3>
+		<div >
+			<image src=../image/fond.png height="352" width="470"  alt="photo"></image>
+		</div>
 		<h3>Etudes :</h3>
 		<ul>
 			<li><p>2018 - 2019 : <b>LP SMIN </b></p></li>
@@ -24,8 +28,9 @@
 		<ul>
 			<li><p>Janvier-Février 2018 : <b>Stage Developpeur VBA</b> <br/>AVDM Logique de précision à Grenoble</p></li>
 			<li><p>Juin-Juillet 2017 : <b>Stage Developpeur Web </b><br/>Direction régionale de l'alimentation, agriculture et foret à Romans sur Isère</p></li>
-			<li><p>Février-Juin 2016 : <b>Intérimaire</b> <br/>Armony Signalétique</p></li>
+			<li><p>Février-Juin 2016 : <b>Intérimaire Opérateur polyvalent en sérigraphie</b> <br/>Armony Signalétique</p></li>
 		</ul>
-		 
+		<br/>
+		<footer>© Développé par Sylvain Lasarte | Etudiant LP SMIN IUT1 Grenoble- Tous droits réservés</footer>
 	</body>
 </html>
