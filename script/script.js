@@ -3,10 +3,12 @@ function changeBackground() {
 	if (document.getElementById("mode").value == "Mode nuit"){
    		document.body.style.background = "#282923";
    		document.body.style.color = "#F5F5F5";
+   		document.getElementById("header").style.background= "#282923";
    		document.getElementById("mode").value = "Mode jour";
    }else {
    		document.body.style.background = "#F5F5F5";
    		document.body.style.color = "#282923"; 
+   		document.getElementById("header").style.background= "#F5F5F5";
    		document.getElementById("mode").value = "Mode nuit";
    }
 }

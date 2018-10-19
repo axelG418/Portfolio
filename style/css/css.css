@@ -1,11 +1,12 @@
 @import "../../nodes_modules/normalize.css/normalize.css";
 h1 {
+  position: relative;
   text-align: center;
   font-size: 48px;
   text-shadow: -2px 0 4px #000;
   font-family: "Segoe print", Arial, Helvetica, sans-serif;
   color: #666699;
-  padding: 30px 0 0 0;
+  padding: 60px 0 0 0;
   margin: 16px auto;
   font-weight: lighter;
   -moz-box-shadow: none;
@@ -82,6 +83,18 @@ footer {
   color: white;
   height: 60px;
   background-color: #666699;
+}
+
+.menu {
+  z-index: 999;
+  width: 100%;
+  padding: 0px 0;
+  position: fixed;
+  background-color: #F5F5F5;
+  top: 0;
+  left: 0;
+  -webkit-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
 }
 
 .heure {
